@@ -23,6 +23,8 @@
     "android": "wdio run ./conf/android.conf.js"
   },
   "dependencies": {
-    "allure-commandline": "^2.24.0"
+    "allure-commandline": "^2.24.0",
+    "chromedriver": "^118.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
   }
 }

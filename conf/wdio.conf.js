@@ -58,7 +58,7 @@ export const config = {
     //     platformName: 'Android',
     //     browserName: 'Chrome',
     //     'appium:deviceName': 'Android GoogleAPI Emulator',
-    //     'appium:platformVersion': '12.0',
+    //     'appium:platformVersion': '13',
     //     'appium:automationName': 'UiAutomator2'
     // }],
 
