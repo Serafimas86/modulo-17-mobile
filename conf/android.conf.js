@@ -6,13 +6,13 @@ import { resolve } from 'path';
 config.capabilities = [
     {
         platformName: 'Android',
-        "appium:automationName": 'uiautomator2',
         maxInstances: 1,
-        "appium:noReset": true,
-        "appium:fullReset": false,
         "appium:deviceName": deviceName,
         "appium:platformVersion": platformVersion,
-        "appium:app": resolve('app/' + app), 
+        "appium:app": resolve('app/' + app),
+        "appium:automationName": 'uiautomator2',
+        "appium:noReset": true,
+        "appium:fullReset": false, 
         "appium:appWaitActivity": "*"
     }
 ];
